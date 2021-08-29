@@ -1,7 +1,5 @@
 import View from './view';
-import icons from 'url:../../img/icons.svg';
-import previewView from './previewView';
-import { Handler } from 'leaflet';
+
 class AddRecipeView extends View {
   _parentElement = document.querySelector('.upload');
   _window = document.querySelector('.add-recipe-window');
